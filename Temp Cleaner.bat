@@ -114,7 +114,7 @@ echo            ABOUT
 echo ============================
 echo.
 echo Program: Temp Cleaner
-echo Version: 1.0
+echo Version: 1.1
 echo Made by: Arkia
 echo.
 echo A simple tool to clean:
