@@ -1,7 +1,7 @@
 @echo off
 net session >nul 2>&1
 if %errorlevel% neq 0 (
-    powershell -WindowStyle Hidden -Command "Start-Process -FilePath '%~f0' -Verb runAs"
+    powershell -Command "Start-Process -FilePath '%~f0' -Verb runAs"
     exit /b
 )
 
@@ -114,7 +114,7 @@ echo            ABOUT
 echo ============================
 echo.
 echo Program: Temp Cleaner
-echo Version: 1.1
+echo Version: 1.0
 echo Made by: Arkia
 echo.
 echo A simple tool to clean:
