@@ -72,13 +72,10 @@ del /f /s /q "C:\Windows\Temp\*.*"
 for /d %%i in ("C:\Windows\Temp\*") do rd /s /q "%%i"
 echo Done.
 echo.
-echo.
-echo.
 echo Deleting files from %TEMP% ...
 del /f /s /q "%TEMP%\*.*"
 for /d %%i in ("%TEMP%\*") do rd /s /q "%%i"
 echo Done.
-echo.
 pause
 goto menu
 
